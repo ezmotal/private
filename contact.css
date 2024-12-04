@@ -1,0 +1,93 @@
+* {
+  background-color: #cccc;
+  padding: 10px;
+  border: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+div {
+  text-align: center;
+  background-color: cadetblue;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  margin: 5px;
+  padding: 10;
+  border: 1px solid #000000;
+}
+input[type="text"] {
+  border: 1px solid #000000;
+}
+input[type="email"] {
+  border: 1px solid #000000;
+}
+input[type="submit"] {
+  border: 1px solid #000000;
+}
+
+input[type="button"] {
+  background-color: rgb(37, 215, 37);
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+input[value="submit"]:hover {
+  background-color: greenyellow;
+}
+@media all and (max-width: 472px) {
+  div,
+  body,
+  input,
+  textarea,
+  .placeholder {
+    font-size: small;
+  }
+}
+@media all and (max-width: 428px) {
+  div,
+  body,
+  input,
+  textarea .placeholder {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 385px) {
+  div,
+  body,
+  input,
+  textarea .placeholder {
+    font-size: 8px;
+  }
+}
+@media all and (max-width: 385px) {
+  div,
+  body,
+  input,
+  textarea .placeholder {
+    font-size: 8px;
+  }
+}
+@media all and (max-width: 385px) {
+  div,
+  body,
+  input,
+  textarea .placeholder {
+    font-size: 6px;
+  }
+}
+@media all and (max-width: 385px) {
+  div,
+  body,
+  input,
+  textarea .placeholder {
+    font-size: 4px;
+  }
+}
